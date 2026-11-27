@@ -1,0 +1,1 @@
+ALTER TABLE enquiries ALTER COLUMN subject DROP NOT NULL;
