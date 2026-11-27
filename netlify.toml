@@ -1,0 +1,8 @@
+# The app lives in the "project" subdirectory, so tell Netlify to build from there.
+[build]
+  base = "project"
+  command = "npm ci --include=dev && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
